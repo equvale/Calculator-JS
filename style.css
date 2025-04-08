@@ -1,6 +1,5 @@
-/* style.css */
 
-/* Общие стили */
+
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +17,7 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Стили калькулятора */
+
 .calculator {
   background-color: #333;
   border-radius: 15px;
@@ -48,7 +47,7 @@ body {
   background-color: #555;
 }
 
-/* Темная тема */
+
 .dark-theme {
   background-color: #212121;
 }
@@ -74,7 +73,7 @@ body {
   background: #fb8c00;
 }
 
-/* Светлая тема */
+
 .light-theme {
   background-color: #f4f4f9;
   color: #212121;
@@ -117,7 +116,7 @@ body {
   white-space: nowrap;
 }
 
-/* Чтобы текст не выходил за пределы экрана */
+
 .input {
   font-size: 2rem;
   word-wrap: break-word;
@@ -125,7 +124,7 @@ body {
   text-overflow: ellipsis;
 }
 
-/* Стили для кнопок */
+
 button {
   border-radius: 12px;
   padding: 20px;
@@ -138,7 +137,7 @@ button:active {
   transform: scale(0.98);
 }
 
-/* Стили для чисел и операторов */
+
 .numbers {
   display: flex;
   justify-content: space-between;
